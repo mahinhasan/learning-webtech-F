@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Merienda:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(155, 41, 41);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* font-family: 'Kurale', serif; */
+    font-family: 'Merienda', cursive;
+    font-size: 13px;
+}
+
+li {
+    float: right;
+}
+
+ul .logo {
+    float: left;
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 20px;
+    
+    color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(83, 87, 48);
+    padding-bottom: 20px;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.fnav {
+
+    margin-top: 50px;
+
+}
+
+.head .logo{
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: rgba(236, 235, 235, 0.322);
+    color: rgb(156, 156, 156);
+    word-spacing: 1rem;
+    letter-spacing: 1rem;
+    font-family: 'Kurale', serif;
+
+}
+.logo span{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+
+}
+
+
+.snav.main-nav {
+    list-style-type: none;
+ 
+    background-color: rgb(155, 41, 41);
+ 
+}
